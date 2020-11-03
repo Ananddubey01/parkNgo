@@ -9,4 +9,8 @@ Steps to start working on the Project:
  
  3 Make a Pull request for review.
  
+ Sync Forked Repo
+ 
+ https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/syncing-a-fork
+ 
  
