@@ -57,3 +57,4 @@ service.geocode({
     map.addObject(new H.map.Marker(item.position));
   });
 }, alert);
+console.log("alert");
