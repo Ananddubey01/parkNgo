@@ -49,8 +49,8 @@
   text-decoration: none;
 }
 
-a:link,
-a:visited {
+.header__right a:link,
+.header__right a:visited {
   background-color: white;
   border: none;
   color: #ff7779;
@@ -65,9 +65,8 @@ a:visited {
   padding-left: 4%;
   padding-right: 4%;
 }
-
-a:hover,
-a:active {
+.header__right a:hover,
+.header__right a:active {
   cursor: pointer;
   text-decoration: none;
   background-color: whitesmoke;
