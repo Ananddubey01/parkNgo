@@ -1,0 +1,229 @@
+/* Basic Styling */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
+/* Columns */
+.container .left-column {
+  width: 65%;
+  padding: 30px;
+  position: relative;
+}
+
+.container .right-column {
+  width: 35%;
+  margin-top: 60px;
+}
+
+/* Left Column */
+.container .left-column img {
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Product Description */
+.product-description {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+
+.product-description span {
+  font-size: 12px;
+  color: #358ED7;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.product-description h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: -2px;
+}
+
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+}
+
+/* Product Color */
+.product-color {
+  margin-bottom: 30px;
+}
+
+.color-choose div {
+  display: inline-block;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+}
+
+.product-price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: #43474D;
+  margin-right: 20px;
+}
+
+.cart-btn {
+  display: inline-block;
+  background-color: #7DC855;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all .5s;
+}
+
+.cart-btn:hover {
+  background-color: #64af3d;
+}
+
+
+#FactTableComponent {
+  line-height: normal;
+  border-radius: 0 !important;
+  font-family: Open Sans, Arial, Helvetica, sans-serif !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-size: inherit;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: block;
+  list-style-type: none;
+}
+
+.component__factTable .generic__listNone tr {
+  line-height: normal;
+  border-collapse: collapse;
+  border-spacing: 0;
+  list-style-type: none;
+  border-radius: 0 !important;
+  font-family: Open Sans, Arial, Helvetica, sans-serif !important;
+  box-sizing: border-box;
+  display: table-row;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+
+.component__factTable .generic__listNone td {
+  line-height: normal;
+  border-collapse: collapse;
+  border-spacing: 0;
+  list-style-type: none;
+  border-radius: 0 !important;
+  font-family: Open Sans, Arial, Helvetica, sans-serif !important;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  font-weight: inherit;
+  font-size: inherit;
+  vertical-align: top;
+  width: 49.75%;
+  padding: 17px 30px 16px;
+  background-color: #FAFBFC;
+  display: inline-block;
+  margin-bottom: 2px;
+  height: 121px;
+}
+
+.component__factTable .generic__listNone .component__tableHead
+{
+  border-collapse: collapse;
+border-spacing: 0;
+list-style-type: none;
+border-radius: 0!important;
+font-family: Open Sans,Arial,Helvetica,sans-serif!important;
+box-sizing: border-box;
+background: transparent;
+line-height: normal;
+outline: 0;
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+font-weight: 400;
+font-size: 14px;
+color: #999;
+}
+
+.component__factTable .generic__listNone .pd__iconPd component__configIcon
+{
+  border-collapse: collapse;
+border-spacing: 0;
+list-style-type: none;
+color: #999;
+border-radius: 0!important;
+font-family: Open Sans,Arial,Helvetica,sans-serif!important;
+box-sizing: border-box;
+background: transparent;
+line-height: normal;
+font-style: normal;
+outline: 0;
+display: inline-block;
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+font-weight: inherit;
+font-size: inherit;
+background-position: -130px 0;
+background-repeat: no-repeat;
+background-size: 318px 318px;
+width: 24px;
+height: 24px;
+margin-bottom: -4px;
+margin-right: 6px;
+background-image: url(https://static.99acres.com/universalapp/img/PD_iconsprite-v3.7.webp);
+}
+
+.component__factTable .generic__listNone .component__details
+{
+  border-collapse: collapse;
+border-spacing: 0;
+list-style-type: none;
+border-radius: 0!important;
+font-family: Open Sans,Arial,Helvetica,sans-serif!important;
+box-sizing: border-box;
+background: transparent;
+outline: 0;
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+color: #333;
+font-weight: 600;
+position: relative;
+margin-top: 2px;
+font-size: 14px;
+line-height: 20px;
+min-height: 22px;
+}
