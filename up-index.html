@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Park & Go</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!--<link rel="stylesheet" href="./styles/style.css" />-->
+  <link rel="stylesheet" href="./styles/banner.css" />
+  <link rel="stylesheet" href="./styles/cards.css" />
+  <link rel="stylesheet" href="./styles/header.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <link rel="stylesheet" href="./styles/up-styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
+</head>
+
+<body>
+  <div>
+    <header class="header">
+      <img class="header__icon" src="./assets/images/logo_transparent.png" alt="logo" />
+      <div class="header__center">
+        <input type="text" />
+        <i class="fas fa-search-location"></i>
+      </div>
+      <div class="header__right">
+        <a href="#">
+          <p id="become-a-host">Become a Host</p>
+        </a>
+        <a href="#"><i class="fas fa-globe"></i></a>
+        <a href="#"><i class="fas fa-caret-down"></i></a>
+        <a href="#"><i class="fas fa-user-astronaut"></i></a>
+      </div>
+    </header>
+
+    <!--Home-->
+    <!--Header-->
+    <!--Banner-->
+    <div class="banner__container">
+      <div class="banner__search">
+        <button type="button" class="btn btn-primary btn-lg btn-block search-dates-button">
+          Search Dates
+        </button>
+      </div>
+
+    </div>
+  </div>
+  <!--description start-->
+
+  <div class="container">
+
+    <!-- Left Column / Headphones Image -->
+    <div class="left-column">
+      <img src="assets/images/pspace1.jpeg" alt="">
+    </div>
+
+
+    <!-- Right Column -->
+    <div class="right-column">
+
+      <!-- Product Description -->
+      <div class="product-description">
+        <table id="FactTableComponent" class="component__factTable generic__listNone">
+          <tr>
+            <td style="height: 121px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__configIcon"></i>Dimensions</div>
+              <div class="component__details" id="factArea">Parking area<br> 11x10 ft</div>
+
+            </td>
+            <td style="height: 121px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__priceIcon"></i>Price</div>
+              <div class="component__details" id="">₹ <span id="pdPrice2"> 4.9 Lac</span> <br>@ 777 per sq.ft.
+                <small>(All inclusive)</small></div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 99px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__addressIcon"></i>Address</div>
+              <div class="component__details" id="">Basant Kunj<br> Meerut Bypass, Meerut</div>
+            </td>
+            <td style="height: 99px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__possessionIcon"></i>Possession</div>
+              <div class="component__details" id=""><span id="agePossessionLbl">Immediate</span></div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 100px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__directionIcon"></i>Facing</div>
+              <div class="component__details" id=""><span id="facingLabel">East</span></div>
+            </td>
+            <td style="height: 100px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__floorIcon"></i>Floors Allowed For
+                Construction</div>
+              <div class="component__details" id=""><span id="floorNumLabel">4 Floors</span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+
+
+      <!-- Product Pricing -->
+      <div class="product-price">
+        <span>₹148/hr</span>
+        <a href="#" class="cart-btn">BOOK</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Footer-->
+  <div class="footer">
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h1 class="logo-text"><span>PARK</span>&GO</h1>
+        <p>A single destination for all your parking problems.You
+          can provide find the parking spot closest
+          to your destination according to your convinence or you can earn
+          some extra bucks by puting your free space at job.
+        </p>
+        <div class="contact">
+          <span><i class="fas fa-phone"></i>&nbsp;8395020704</span>
+          <span><i class="fas fa-email"></i>&nbsp;the.whack.hack.bit@gmail.com</span>
+        </div>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <br>
+        <ul>
+          <a href="#">
+            <li>Events</li>
+          </a>
+          <a href="#">
+            <li>How the magic hppens</li>
+          </a>
+          <a href="#">
+            <li>Origin of idea</li>
+          </a>
+          <a href="#">
+            <li>Know the Team</li>
+          </a>
+          <a href="#">
+            <li>Terms and conditions</li>
+          </a>
+        </ul>
+      </div>
+      <div class="footer-section contact-form">
+        <h2>Contact form</h2>
+        <br>
+        <form class="" action="index.html" method="post">
+          <input type="email" name="email" class="text-input contact-input" placeholder="Your email address....">
+          <textarea name="message" rows="4" class="text-input contact-input" placeholder="Your message...."></textarea>
+          <button type="submit" class="btn btn-big">
+            <i class="fas fa-envelope"></i>
+            Send
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; Park&GO.com | Designed by Anand,Shreyash and Kartik
+    </div>
+  </div>
+
+  <!--Scripts Plugins-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

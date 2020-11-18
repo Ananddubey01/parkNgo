@@ -1,0 +1,60 @@
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    max-height: 674px;
+  }
+  .banner__info {
+    flex: 1;
+    color: white;
+    padding-top: 35vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+  
+  
+  .banner__search {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+  }
+  .bannerfont {
+    font-family: "Aladin", cursive;
+  }
+  .banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  
+  .banner__info > button:hover {
+    background-color: white;
+    color: #ff7779;
+  }
+  
+  .banner__info > h5 {
+    margin-top: 10px;
+  }
+  .explore {
+    border: 1px white solid !important;
+  }
+  .search-dates-button {
+    border-radius: 0 !important;
+    width: 100% !important;
+    border: none !important;
+    background-color: white !important;
+    color: #ff7779 !important;
+  }
+  
+  
