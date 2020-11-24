@@ -39,12 +39,12 @@ padding: 40px;
 }
 
 #ads .card-detail-badge {      
-        background: #f2d900;
-        text-align: center;
+    background: #086972;
+    text-align: center;
         border-radius: 30px 30px 30px 30px;
-        color: #000;
+        color: #a7ff83;
         padding: 5px 10px;
-        font-size: 14px;        
+        font-size: 18px;        
     }
 
    
@@ -72,23 +72,23 @@ padding: 40px;
         width: 150px;
         height: 40px;
         border-radius: 80px;
-        font-size: 16px;
+        font-size: 20px;
         line-height: 35px;
         text-align: center;
-        border: 3px solid #e6de08;
+        border: 3px solid #071a52;
         display: block;
         text-decoration: none;
         margin: 20px auto 1px auto;
-        color: #000;
+        color: #a7ff83;
         overflow: hidden;        
         position: relative;
-        background-color: #e6de08;
+        background-color: #086972;
     }
 
 #ads .ad-btn:hover {
             background-color: #e6de08;
             color: #1e1717;
-            border: 2px solid #e6de08;
+            border: 2px solid #071a52;
             background: transparent;
             transition: all 0.3s ease;
             box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
