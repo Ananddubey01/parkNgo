@@ -1,81 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <style>
-    body {
-    background-repeat: no-repeat;
-    background-size: 1500px 800px;
-    }
-     
-    </style>
-  
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Park & Go</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!--<link rel="stylesheet" href="./styles/style.css" />-->
   <link rel="stylesheet" href="./styles/banner.css" />
-  <link rel="stylesheet" href="./styles/header.css" />
-  <link rel="stylesheet" href="./styles/login.css" />
   <link rel="stylesheet" href="./styles/cards.css" />
+  <link rel="stylesheet" href="./styles/header.css" />
   <link rel="stylesheet" href="./styles/footer.css" />
   <link rel="stylesheet" href="./styles/up-styles.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
 </head>
 
-<body background="assets/images/back2.jpg">
+<body>
+  <div>
+    <header class="header">
+      <img class="header__icon" src="./assets/images/logo_transparent.png" alt="logo" />
+      <div class="header__center">
+        <input type="text" />
+        <i class="fas fa-search-location"></i>
+      </div>
+      <div class="header__right">
+        <a href="#">
+          <p id="become-a-host">Become a Host</p>
+        </a>
+        <a href="#"><i class="fas fa-globe"></i></a>
+        <a href="#"><i class="fas fa-caret-down"></i></a>
+        <a href="#"><i class="fas fa-user-astronaut"></i></a>
+      </div>
+    </header>
 
-  <!--login page start-->
-  <img class="header__icon" src="assets/images/logo4.8z" alt="logo"/>
- 
+    <!--Home-->
+    <!--Header-->
+    <!--Banner-->
+    <div class="banner__container">
+      <div class="banner__search">
+        <button type="button" class="btn btn-primary btn-lg btn-block search-dates-button">
+          Search Dates
+        </button>
+      </div>
 
-  <div id="logreg-forms">
-   
- 
-    <form class="form-signin">
-        <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Sign in</h1>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
-        
-        <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in</button>
-        <a href="#" id="forgot_pswd">Forgot password?</a>
-        <hr>
-        <!-- <p>Don't have an account!</p>  -->
-        <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i> Sign up New Account</button>
-        </form>
+    </div>
+  </div>
+  <!--description start-->
 
-        <form action="/reset/password/" class="form-reset">
-            <input type="email" id="resetEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-            <button class="btn btn-primary btn-block" type="submit">Reset Password</button>
-            <a href="#" id="cancel_reset"><i class="fas fa-angle-left"></i> Back</a>
-        </form>
-        
-        <form action="/signup/" class="form-signup">
-          <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Sign Up</h1>
-   
-            <input type="text" id="user-name" class="form-control" placeholder="Full name" required="" autofocus="">
-            <input type="email" id="user-email" class="form-control" placeholder="Email address" required autofocus="">
-            <input type="password" id="user-pass" class="form-control" placeholder="Password" required autofocus="">
-            <input type="password" id="user-repeatpass" class="form-control" placeholder="Repeat Password" required autofocus="">
-            <br>
-            <p>How would you like to proceed as:</p>
-              <input type="radio" id="user" name="user-type" value="user">
-                <label for="user">User</label><br>
-                <input type="radio" id="host" name="user-type" value="host">
-                <label for="host">Host</label><br>
+  <div class="container">
 
-            <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i> Sign Up</button>
-            <a href="#" id="cancel_signup"><i class="fas fa-angle-left"></i> Back</a>
-        </form>
-        
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="login.js"></script>
+    <!-- Left Column / Headphones Image -->
+    <div class="left-column">
+      <img src="assets/images/pspace1.jpeg" alt="">
+    </div>
+
+
+    <!-- Right Column -->
+    <div class="right-column">
+
+      <!-- Product Description -->
+      <div class="product-description">
+        <table id="FactTableComponent" class="component__factTable generic__listNone">
+          <tr>
+            <td style="height: 121px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__configIcon"></i>Dimensions</div>
+              <div class="component__details" id="factArea">Parking area<br> 11x10 ft</div>
+
+            </td>
+            <td style="height: 121px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__priceIcon"></i>Price</div>
+              <div class="component__details" id="">₹ <span id="pdPrice2"> 4.9 Lac</span> <br>@ 777 per sq.ft.
+                <small>(All inclusive)</small></div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 99px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__addressIcon"></i>Address</div>
+              <div class="component__details" id="">Basant Kunj<br> Meerut Bypass, Meerut</div>
+            </td>
+            <td style="height: 99px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__possessionIcon"></i>Possession</div>
+              <div class="component__details" id=""><span id="agePossessionLbl">Immediate</span></div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 100px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__directionIcon"></i>Facing</div>
+              <div class="component__details" id=""><span id="facingLabel">East</span></div>
+            </td>
+            <td style="height: 100px;">
+              <div class="component__tableHead"><i class="pd__iconPd component__floorIcon"></i>Floors Allowed For
+                Construction</div>
+              <div class="component__details" id=""><span id="floorNumLabel">4 Floors</span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+
+
+      <!-- Product Pricing -->
+      <div class="product-price">
+        <span>₹148/hr</span>
+        <a href="#" class="cart-btn">BOOK</a>
+      </div>
+    </div>
+  </div>
 
 
 
