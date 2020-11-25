@@ -1,7 +1,12 @@
 .form-h {
+  font-family: Verdana, Arial, Tahoma, Serif;
     padding: 1%;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
     padding-top:10px;
     text-align: center;
+    color: 	#00008B;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -27,7 +32,8 @@ input[type=text], select, textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   .heading {
-      font-size: 20px;
+    color: #00008B;
+    font-size: 20px;
   }
 
   /* Style the submit button with a specific background color etc */
@@ -48,6 +54,7 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: white;
+    opacity: 0.8;
     padding: 20px;
   }
